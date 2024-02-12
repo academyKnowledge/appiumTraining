@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-10T20:54:50 EET" name="Default suite" finished-at="2024-02-10T20:55:19 EET" duration-ms="28858">
+  <suite started-at="2024-02-12T20:48:39 EET" name="Default suite" finished-at="2024-02-12T20:48:58 EET" duration-ms="19412">
     <groups>
     </groups>
-    <test started-at="2024-02-10T20:54:50 EET" name="Default test" finished-at="2024-02-10T20:55:19 EET" duration-ms="28858">
+    <test started-at="2024-02-12T20:48:39 EET" name="Default test" finished-at="2024-02-12T20:48:58 EET" duration-ms="19412">
       <class name="appium2.appiumTesting">
-        <test-method is-config="true" signature="setup()[pri:0, instance:appium2.appiumTesting@6d763516]" started-at="2024-02-10T20:54:50 EET" name="setup" finished-at="2024-02-10T20:54:50 EET" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:appium2.appiumTesting@dd8ba08]" started-at="2024-02-12T20:48:39 EET" name="setup" finished-at="2024-02-12T20:48:39 EET" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="myFirstTest()[pri:0, instance:appium2.appiumTesting@6d763516]" started-at="2024-02-10T20:54:50 EET" name="myFirstTest" finished-at="2024-02-10T20:55:19 EET" duration-ms="28781" status="PASS">
+        <test-method signature="addNumbers()[pri:0, instance:appium2.appiumTesting@dd8ba08]" started-at="2024-02-12T20:48:39 EET" name="addNumbers" finished-at="2024-02-12T20:48:58 EET" duration-ms="19363" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- myFirstTest -->
-        <test-method is-config="true" signature="myAfter()[pri:0, instance:appium2.appiumTesting@6d763516]" started-at="2024-02-10T20:55:19 EET" name="myAfter" finished-at="2024-02-10T20:55:19 EET" duration-ms="1" status="PASS">
+        </test-method> <!-- addNumbers -->
+        <test-method is-config="true" signature="myAfter()[pri:0, instance:appium2.appiumTesting@dd8ba08]" started-at="2024-02-12T20:48:58 EET" name="myAfter" finished-at="2024-02-12T20:48:58 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myAfter -->
