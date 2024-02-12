@@ -53,8 +53,6 @@ public class appiumTesting extends Parameters{
 //		driver.findElement(By.id("com.google.android.calculator:id/eq")).click();
 		action.addTwoNumbers("%", "4");
 		action.takeScreenshot();
-//		action.addTwoNumbers("7", "8");
-//		action.takeScreenshot();
 		
 	}
 	
