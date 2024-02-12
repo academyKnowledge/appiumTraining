@@ -51,10 +51,10 @@ public class appiumTesting extends Parameters{
 //		driver.findElement(By.id("com.google.android.calculator:id/op_mul")).click();
 //		driver.findElement(By.id("com.google.android.calculator:id/digit_5")).click();
 //		driver.findElement(By.id("com.google.android.calculator:id/eq")).click();
-		action.addTwoNumbers("3", "4");
+		action.addTwoNumbers("%", "4");
 		action.takeScreenshot();
-		action.addTwoNumbers("7", "8");
-		action.takeScreenshot();
+//		action.addTwoNumbers("7", "8");
+//		action.takeScreenshot();
 		
 	}
 	

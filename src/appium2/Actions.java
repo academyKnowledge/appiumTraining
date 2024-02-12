@@ -19,30 +19,39 @@ public class Actions extends Parameters{
 		
 		for(int i =0 ; i<Keys.size(); i++) {
 			String resourceId =  Keys.get(i).getAttribute("resource-id");
+			
 			if(resourceId != null &&  resourceId.contains(num1)) {
 				Keys.get(i).click();
+				driver.findElement(By.id("com.google.android.calculator:id/op_add")).click();
 				break;
 			}
-//			 
-//			else {
-//				System.out.println("You send invalid data");
-//			}
-		}
-		
-		driver.findElement(By.id("com.google.android.calculator:id/op_add")).click();
-		
-		for(int i =0 ; i<Keys.size(); i++) {
-			String resourceId =  Keys.get(i).getAttribute("resource-id");
-			if(resourceId != null && resourceId.contains(num2)) {
+			
+			else if(resourceId != null && resourceId.contains(num2)) {
 				Keys.get(i).click();
+				driver.findElement(By.id("com.google.android.calculator:id/eq")).click();
 				break;
 			}
-//			else {
-//				System.out.println("You send invalid data");
-//			}
+			 
+			else if(!resourceId.contains("digit")) {
+				System.out.println("You send invalid data");
+				break;
+			}
 		}
 		
-		driver.findElement(By.id("com.google.android.calculator:id/eq")).click();
+//		driver.findElement(By.id("com.google.android.calculator:id/op_add")).click();
+//		
+//		for(int i =0 ; i<Keys.size(); i++) {
+//			String resourceId =  Keys.get(i).getAttribute("resource-id");
+//			if(resourceId != null && resourceId.contains(num2)) {
+//				Keys.get(i).click();
+//				break;
+//			}
+//			else if(!resourceId.contains("digit")) {
+//				System.out.println("You send invalid data");
+//			}
+//		}
+//		
+//		driver.findElement(By.id("com.google.android.calculator:id/eq")).click();
 		
 	}
 	
